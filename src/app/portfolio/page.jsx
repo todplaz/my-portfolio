@@ -11,7 +11,7 @@ const items = [
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "Application météorologique",
-    desc: "L’application comporte des fonctionnalités qui fournissent des informations sur le temps actuel et prévu, des prévisions météorologiques sur 10 jours,des précipitations prévues,de la qualité de l'air, direction du vent et bien encore",
+    desc: "L’application comporte des fonctionnalités qui fournissent des informations sur le temps actuel et prévu, des prévisions météorologiques sur 10 jours,des précipitations prévues,de la qualité de l'air, direction du vent et bien plus encore.",
     img: "/weatherland.png",
     link: "https://weatherland.vercel.app/#/weather?lat=14.7380399&lon=-60.9645707",
   },
@@ -27,7 +27,7 @@ const items = [
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Application de gestion des tâches",
-    desc: "L'application de gestion de tache vous aidera a planifier vos taches de facon simple afin de rester toujours a la page de toutes vos activités, peu importe leur nature.",
+    desc: "L'application de gestion de tache vous aidera a planifier vos taches de facon simple afin de rester toujours organisé sur vos activités, peu importe leur nature. Ayant des problèmes avec les fonctions firebase en deploiement sur vercel, il est à noter qu'il sera preférable de cloner le projet depuis ma page github, puis d'executer successivement : <npm init> puis <npm run dev> et enfin <npm run fb-emulators>.",
     img: "/homeboard.png",
     link: "https://homeboard-woad.vercel.app/",
   },
@@ -79,7 +79,7 @@ const PortfolioPage = () => {
                   {item.desc}
                 </p>
                 <Link href={item.link} className='flex justify-end' target='_blank'>
-                  <button className='p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded'>voir la Demo</button>
+                  <button className='p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded'>visitez le site</button>
                 </Link>
               </div>
             </div>

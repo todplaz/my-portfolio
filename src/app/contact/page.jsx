@@ -80,7 +80,7 @@ const ContactPage = () => {
             Envoyer
           </button>
           {success && <span className='text-green-600 font-semibold'>Votre message a bien été envoyé!</span>}
-          {error && <span className='text-red-600 font-semibold'>Un problème est survenu!</span>}
+          {error && <span className='text-red-600 font-semibold'>Oups, un problème est survenu!</span>}
         </form>
       </div>
     </motion.div>
